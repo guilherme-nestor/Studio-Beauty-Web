@@ -365,6 +365,12 @@ main{
     font-family: var(--font-2);
     font-size: var(--h3-font-size);
 }
+.sobreText h1{
+    font-size: var(--biggest-font-size);
+}
+.sobreText p{
+    margin-top: 1rem;
+}
 .sobreImg img{
     border-radius: .5rem;
     background: var(--color-5);
