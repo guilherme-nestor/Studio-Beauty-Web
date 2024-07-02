@@ -181,6 +181,7 @@ header, main, footer{
 }
 .logo img{
     height: 2rem;
+    width: 2rem;
 }
 main{
     display: flex;
@@ -222,7 +223,7 @@ main{
     filter: drop-shadow(var(--shadow-1));
 }
 .imgHome img{
-    border-radius: 50% 1rem;
+    border-radius: 50% 2rem;
     border: 2px solid var(--color-5);
     background: var(--color-5);
 }
@@ -282,7 +283,7 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
     padding: 0 1rem;
-    row-gap: 4rem;
+    row-gap: 2rem;
     color: var(--color-4);
 }
 .cardServicosMain{
@@ -467,6 +468,7 @@ main{
 }
 .buttonAgendamentoAgora img{
     height: var(--normal-font-size);
+    width: var(--normal-font-size);
 }
 .buttonAgendamentoAgora:hover{
     cursor: pointer;
@@ -496,6 +498,7 @@ footer{
 }
 .footerIcons a img{
     height: var(--small-font-size);
+    width: var(--small-font-size);
 }
 #fone{
     margin-bottom: 1rem;
