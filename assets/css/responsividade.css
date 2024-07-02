@@ -130,6 +130,7 @@ Extra     extra large	xxl	≥1400px
         justify-content: flex-start;
         flex-direction: column;
         margin-top: 0;
+        min-height: calc(100vh - 24rem);
     }
     .imgHome{
         display: none;
@@ -165,6 +166,9 @@ Extra     extra large	xxl	≥1400px
     }
     .main{
         width: 100%;
+    }
+    .cardProfissional{
+        min-height: 380px;
     }
 }
 
