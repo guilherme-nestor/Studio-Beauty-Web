@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function(){
   })
   idSobre.addEventListener('click', function(){
     const targetPosition = mainSobre.getBoundingClientRect().top + window.pageYOffset;
-    const offsetPosition = targetPosition - 0
+    const offsetPosition = targetPosition - 48
     window.scrollTo({
       top: offsetPosition,
       behavior: 'smooth'
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function(){
   })
   idServicos2.addEventListener('click', function(){
     const targetPosition = mainServicos.getBoundingClientRect().top + window.pageYOffset
-    const offsetPosition = targetPosition - 384
+    const offsetPosition = targetPosition - 350
     window.scrollTo({
       top: offsetPosition,
       behavior: 'smooth'
