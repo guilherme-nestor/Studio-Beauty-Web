@@ -22,12 +22,9 @@ document.addEventListener('DOMContentLoaded', function(){
   const idAgendamento = document.getElementById('agendamento')
   const idSobre = document.getElementById('sobre')
   const buttonHome = document.getElementById('buttonHome')
-  const buttonHome2 = document.getElementById('buttonHome2')
   idHome.addEventListener('click', function(){
-    const targetPosition = textAndImgHome.getBoundingClientRect().top + window.pageYOffset
-    const offsetPosition = targetPosition - 64
     window.scrollTo({
-      top: offsetPosition,
+      top: 0,
       behavior: 'smooth'
     });
   })
@@ -63,24 +60,15 @@ document.addEventListener('DOMContentLoaded', function(){
       behavior: 'smooth'
     });
   })
-  buttonHome2.addEventListener('click', function(){
-    const targetPosition = agendamentoAgora.getBoundingClientRect().top + window.pageYOffset;
-    const offsetPosition = targetPosition - 96
-    window.scrollTo({
-      top: offsetPosition,
-      behavior: 'smooth'
-    });
-  })
 
   const idHome2 = document.getElementById('home2')
   const idServicos2 = document.getElementById('servicos2')
   const idAgendamento2 = document.getElementById('agendamento2')
   const idSobre2 = document.getElementById('sobre2')
+  const buttonHome2 = document.getElementById('buttonHome2')
   idHome2.addEventListener('click', function(){
-    const targetPosition = textAndImgHome.getBoundingClientRect().top + window.pageYOffset
-    const offsetPosition = targetPosition - 64
     window.scrollTo({
-      top: offsetPosition,
+      top: 0,
       behavior: 'smooth'
     });
   })
@@ -103,6 +91,14 @@ document.addEventListener('DOMContentLoaded', function(){
   idAgendamento2.addEventListener('click', function(){
     const targetPosition = agendamentoAgora.getBoundingClientRect().top + window.pageYOffset;
     const offsetPosition = targetPosition - 256
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
+    });
+  })
+  buttonHome2.addEventListener('click', function(){
+    const targetPosition = agendamentoAgora.getBoundingClientRect().top + window.pageYOffset;
+    const offsetPosition = targetPosition - 96
     window.scrollTo({
       top: offsetPosition,
       behavior: 'smooth'
