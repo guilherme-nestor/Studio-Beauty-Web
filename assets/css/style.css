@@ -385,7 +385,7 @@ main{
     border-radius: .5rem .5rem 0 0;
     border: 1px solid var(--color-5);
     margin: 1rem 1rem 0 1rem;
-    padding: 4rem 1rem  ;
+    padding: 2rem 1rem;
     overflow: hidden;
 }
 .profissionaisDestaques h1{
@@ -474,6 +474,33 @@ main{
     cursor: pointer;
     transform: translateY(-3px);
 }
+.dados{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-width: 40rem;
+    margin: 2rem auto;
+}
+.dadosCaixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    background: var(--color-5);
+    border-radius: 1rem;
+    transition: .3s ease-in-out;
+}
+.dadosCaixa:hover{
+    transform: scale(1.03);
+}
+.dadosCaixa strong,
+.dadosCaixa p{
+    color: var(--color-4);
+}
+.dadosCaixa strong{
+    font-size: 2rem;
+}
 /* Rodapé */
 footer{
     width: 100%;
@@ -490,6 +517,7 @@ footer{
     align-items: center;
     flex-direction: column;
     text-align: center;
+    margin-top: 2rem;
 }
 .footerIcons{
     display: flex;
