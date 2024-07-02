@@ -213,7 +213,6 @@ main{
     min-height: calc(100vh - 4rem);
     padding: 1rem;
     margin-top: 4rem;
-    padding-bottom: 4rem;
     overflow: hidden;
 }
 .imgHome{
@@ -480,6 +479,7 @@ main{
     gap: 1rem;
     max-width: 40rem;
     margin: 2rem auto;
+    padding: 0 1rem;
 }
 .dadosCaixa{
     display: flex;
@@ -556,6 +556,6 @@ footer{
     border: 1px solid red;
 } */
 
-/* .textHome, .servicosMain{
+/* *{
     border: 1px solid red;
 } */
