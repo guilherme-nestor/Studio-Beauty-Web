@@ -176,12 +176,12 @@ header, main, footer{
     align-items: center;
     justify-content: center;
     white-space: nowrap;
-    gap: 1rem;
+    gap: .5rem;
     font-size: var(--h3-font-size);
 }
 .logo img{
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
 }
 main{
     display: flex;
